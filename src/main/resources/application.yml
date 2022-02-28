@@ -1,0 +1,21 @@
+micronaut:
+  application:
+    name: mnOciEmail
+  email:
+    from:
+      email:
+      name:
+codes:
+  recursive:
+    smtp:
+      password:
+      user:
+javamail:
+  properties:
+    mail:
+      smtp:
+        port: 587
+        auth: true
+        starttls:
+          enable: true
+        host:
